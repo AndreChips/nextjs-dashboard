@@ -1,20 +1,9 @@
 import React from 'react'
-import CustomersTable from '@/app/ui/customers/table'
+// import CustomersTable from '@/app/ui/customers/table'
 import { lusitana } from '@/app/ui/fonts'
-import { fetchCustomers } from '@/app/lib/data'
+// import { fetchCustomers } from '@/app/lib/data'
 
-export default async function Page({
-  searchParams
-}: {
-  searchParams?: {
-    query?: string
-    page?: string
-  }
-}) {
-  const query = searchParams?.query || ''
-  const currentPage = Number(searchParams?.page) || 1
-
-  const customers = await fetchCustomers()
+export default async function Page() {
   return (
     <div className="w-full">
       <div className="flex w-full items-center justify-between">
