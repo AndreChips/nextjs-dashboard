@@ -4,10 +4,10 @@ This is a starter Dashboard Application built using Next.js. It includes the fol
 
 - **Public Home Page**: A landing page accessible to everyone.
 - **Login Page**: Allows users to log in to access restricted areas.
-### Login Credentials
-Email: user@nextmail.com
-Password: 123456 
-
+- **Login Page**: Allows users to log in to access restricted areas.
+  - **Login Credentials**:
+    - **Email**: user@nextmail.com
+    - **Password**: 123456
 - **Dashboard Pages**: Various pages available to logged-in users for managing their data.
 - **Invoice Management**: 
   - Add new invoices
